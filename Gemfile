@@ -5,7 +5,7 @@ gemspec
 gem "rails", "~> 4.0.0"
 gem "omniauth", "~> 1.0.0"
 gem "omniauth-oauth2", "~> 1.0.0"
-gem "rdoc"
+gem "rdoc", ">= 4.3.0"
 
 group :test do
   gem "omniauth-facebook"
